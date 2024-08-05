@@ -1,0 +1,74 @@
+.res-card{
+    
+    border: #000 solid 0.5px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    width: 15%;
+    height: 10%;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.img-placeholder{
+    height: 5%;
+    width: 100%;
+    
+}
+
+
+
+.card{
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.card > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card > span{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card > span > h4{
+    text-align: center;
+}
+
+.card > span > h4:first-child{
+    display: flex;
+    align-items: center;
+    background-color: rgb(19, 176, 1);
+    border-radius: 5px;
+    padding: 0 5px 0;
+    color: white;
+}
+
+.card > span > h4:first-child .fa-star{
+    font-size: small;
+    padding: 0 5px 3px 0;
+}
+
+
+
+
+@media only screen and (max-width: 1330px) {
+    .res-card {
+        width: 15%;
+        height: 10%;
+    }
+  }
+
+  @media only screen and (max-width: 720px) {
+    .res-card {
+        width: 30%;
+        height: 10%;
+    }
+  }
