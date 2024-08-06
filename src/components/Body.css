@@ -45,4 +45,16 @@
     justify-content:center;
 }
 
+.filter-ratings-btn{
+    
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: #000 solid 0.5px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
 

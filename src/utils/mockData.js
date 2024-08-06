@@ -234,7 +234,7 @@ const restaurantList = [
           iconType: "EMPTY",
         },
         promoted: false,
-        avgRating: "4.4",
+        avgRating: "3.4",
         totalRatings: 100,
         new: false,
       },
@@ -1323,7 +1323,7 @@ const restaurantList = [
           iconType: "EMPTY",
         },
         promoted: false,
-        avgRating: "4.1",
+        avgRating: "3.1",
         totalRatings: 0,
         new: false,
       },
@@ -1817,4 +1817,4 @@ const restaurantList = [
     },
   ];
 
-  export default restaurantList;
+  export default restaurantList
