@@ -1,18 +1,6 @@
-.res-card{
-    
-    border: #000 solid 0.5px;
-    border-radius: 5px;
-    margin: 2px;
-    padding: 2px;
-    width: 15%;
-   
-    background-color: #e5e5e5;
-    cursor: pointer;
-    transition: 0.3s;
-}
 
 .res-image{
-    height: 25%;
+    height: 100px;
     width: 100%;
     
 }
@@ -20,9 +8,10 @@
 
 
 .card{
+    
     width: 200px;
     border-radius: 5px;
-    box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+    
     padding: 10px;
     margin: 5px;
     cursor: pointer;
@@ -33,28 +22,9 @@
     border-radius: 10px;
 }
 
-.card > span{
-    display: flex;
-    justify-content: space-evenly;
-}
 
-.card > span > h4{
-    text-align: center;
-}
 
-.card > span > h4:first-child{
-    display: flex;
-    align-items: center;
-    background-color: rgb(19, 176, 1);
-    border-radius: 5px;
-    padding: 0 5px 0;
-    color: white;
-}
 
-.card > span > h4:first-child .fa-star{
-    font-size: small;
-    padding: 0 5px 3px 0;
-}
 
 
 
@@ -72,3 +42,4 @@
         height: 10%;
     }
   }
+

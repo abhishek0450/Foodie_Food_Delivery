@@ -12,6 +12,12 @@
     margin-bottom: 10px;
 }
 
+h1{
+    font-size: 29px;
+    
+}
+
+
 .searchbar input{
     width: 20%;
     height: 15%;
@@ -56,5 +62,6 @@
     cursor: pointer;
     outline: none;
 }
+
 
 

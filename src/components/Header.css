@@ -23,7 +23,7 @@ li{
     cursor: pointer;
     text-decoration: none;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 
@@ -35,3 +35,77 @@ li{
     
 }
 
+.loginButton{
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 30px;
+    width: 60px;
+}
+
+.main-name{
+    margin-top: 12px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+
+
+/* Styles for header */
+.header-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  /* Hide the sidebar by default */
+  .sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(255, 255, 255, 0.88);
+    padding: 20px;
+    z-index: 1000;
+  }
+  
+  /* Close button inside sidebar */
+  .close-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    max-width: 10px;
+    color: red;
+  }
+  
+  /* Hamburger icon */
+  .hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  /* Style for ul-list */
+  .ul-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  /* Hide ul-list on small screens (mobile view) */
+  @media (max-width: 900px) {
+    .ul-list {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block; /* Show hamburger icon */
+    }
+  }
+
+
+  

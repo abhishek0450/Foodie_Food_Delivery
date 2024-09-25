@@ -7,24 +7,24 @@ const ResCard = ({
   cloudinaryImageId,
   name,
   cuisines,
-  area,
-  lastMileTravelString,
-  costForTwoString,
+  areaName,
+  sla,
+  costForTwo,
   avgRating,
 }) => {
   return (
     <div className="card">
+      <div className="card-contents">
       <img className='res-image' src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+cloudinaryImageId} />
-      <h2>{name}</h2>
-      <h4>{cuisines.join(", ")}</h4>
-      <h4>{area}</h4>
-      <div>
-         <h4>
-          
-          {avgRating}
-        </h4>
-        <h5>{lastMileTravelString}</h5>
-        <h5>{costForTwoString}</h5>
+      <p className='card-data'>{name}</p>
+      
+      <p>{areaName}</p>
+        <p>{cuisines.slice(0, 3).join()}</p>
+        <p>{avgRating}</p>
+        <p>{sla.slaString}</p>
+        <p>{costForTwo}
+        </p>
+      
       </div>
        
       
